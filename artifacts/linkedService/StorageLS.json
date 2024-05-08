@@ -2,7 +2,7 @@
 	"name": "StorageLS",
 	"properties": {
 		"parameters": {
-			"StorageName": {
+			"gsydatastore": {
 				"type": "string",
 				"defaultValue": "synapsee2elake"
 			}
@@ -10,7 +10,7 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "@{concat('https://',linkedService().StorageName,'.dfs.core.windows.net')}"
+			"url": "@{concat('https://',linkedService().linkedService().gsydatastore'.dfs.core.windows.net')}"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
