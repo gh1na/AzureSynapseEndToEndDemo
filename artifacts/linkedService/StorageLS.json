@@ -2,9 +2,9 @@
 	"name": "StorageLS",
 	"properties": {
 		"parameters": {
-			"gsydatastore": {
+			"StorageName": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "StorageLS"
 			}
 		},
 		"annotations": [],
