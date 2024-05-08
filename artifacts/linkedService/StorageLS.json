@@ -10,7 +10,7 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "@{concat('https://',linkedService().linkedService().gsydatastore'.dfs.core.windows.net')}"
+			"url": "@{concat('https://',linkedService().gsydatastore,'.core.windows.net')}"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
