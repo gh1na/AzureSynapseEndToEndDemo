@@ -10,7 +10,7 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "@{concat('https://',linkedService().StorageName,'.core.windows.net')}"
+			"url": "@{concat('https://',linkedService().StorageName,'.dfs.core.windows.net')}"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
