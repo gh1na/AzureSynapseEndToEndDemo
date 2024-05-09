@@ -475,7 +475,7 @@
 		"parameters": {
 			"StorageName": {
 				"type": "string",
-				"defaultValue": "StorageLS"
+				"defaultValue": "synapsee2elake"
 			},
 			"DatabaseName": {
 				"type": "string",
