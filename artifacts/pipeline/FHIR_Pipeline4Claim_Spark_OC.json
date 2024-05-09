@@ -479,7 +479,7 @@
 			},
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "LakeDatabase"
+				"defaultValue": "gssqlpool"
 			},
 			"ServerName": {
 				"type": "string",
