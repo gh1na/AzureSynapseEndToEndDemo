@@ -183,7 +183,7 @@
 		"parameters": {
 			"TargetStorageName": {
 				"type": "string",
-				"defaultValue": "gsydatastore"
+				"defaultValue": "gsydatastoree"
 			},
 			"DatasetSize": {
 				"type": "string",
