@@ -7,9 +7,7 @@
 				"defaultValue": "synapsee2elake"
 			}
 		},
-		"annotations": [
-			"AzureBlobFS"
-		],
+		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "@{concat('https://',linkedService().StorageName,'.core.windows.net')}"
