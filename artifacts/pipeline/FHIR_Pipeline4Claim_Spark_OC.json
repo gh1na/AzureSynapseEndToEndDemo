@@ -475,7 +475,7 @@
 		"parameters": {
 			"StorageName": {
 				"type": "string",
-				"defaultValue": "synapsee2elake"
+				"defaultValue": "gsydatastoree"
 			},
 			"DatabaseName": {
 				"type": "string",
