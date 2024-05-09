@@ -491,7 +491,7 @@
 			},
 			"DatasetSize": {
 				"type": "string",
-				"defaultValue": "30tb"
+				"defaultValue": "1tb"
 			}
 		},
 		"folder": {
